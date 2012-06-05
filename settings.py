@@ -4,18 +4,7 @@ djcelery.setup_loader()
 
 ## Celery config ##
 
-#BROKER_HOST = "localhost"
- 
-#BROKER_PORT = 5672
-#BROKER_USER = "myuser"
-#BROKER_PASSWORD = "mypassword"
- 
-#BROKER_VHOST = "myvhost"
-
 BROKER_URL = "amqp://guest:guest@localhost:5672//"
-
-#BROKER_URL = "django://"
-#BROKER_BACKEND = "djkombu.transport.DatabaseTransport"
 
 ## END config ##
 
